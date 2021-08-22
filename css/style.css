@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+/* Bootstrap */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    display: flex;
+    flex-flow: row;
+}
+h1{
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0;
+}
+h4 {
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+p {
+    margin-top: 0;
+}
+button {
+    background: none;
+    border: 1px solid;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #37474F;
+    color: white;
+    border: 1px solid #D84315;
+}
+
+
+/* Image Section*/
+.image-section {
+    padding: 1rem 2rem;
+    width: 50%;
+}
+.image-section img{
+    width: 100%;
+}
+
+/* Information Section */
+.information-section {
+    padding: 0 5rem;
+    width: 50%;
+}
+
+table {
+    margin-top: 60px;
+    border-collapse: collapse;
+    width: 50%;
+}
+td {
+    border-bottom: 1px solid #CFD8DC;
+}
+.br-dark {
+    border-bottom: 1px solid #000;
+}
+.text-align-r {
+    text-align: right;
+}
+.promo {
+    margin-top: 50px;
+}
+label {
+    display: block;
+}
+input {
+    border: 1px solid #CFD8DC;
+    padding: 0.7rem;
+    margin-right: -5px;
+    border-radius: 5px;
+}
+#promo-submit {
+    background: #E91E63;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem;
+    color: white;
+}
+
+#promo-error{
+    color: red;
+}
+/* Footer Section*/
+hr{
+    border: 1px solid #CFD8DC;
+}
+.footer {
+    text-align: center;
+}
+
+/* On screens that are 600px or less */
+@media screen and (max-width: 600px) {
+ .container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+ } 
+}
